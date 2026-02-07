@@ -6,21 +6,20 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+      - name: Deploy via ssh
+        uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{secrets.SSH_HOST}}
+          host: ${{ secrets.SSH_HOST }}
           username: ubuntu
-          key: ${{secrets.SSH_KEY}}
+          key: ${{ secrets.SSH_KEY }}
           script: |
             cd /home/ubuntu/CI_CD_ACTIONS
             git pull origin main
             docker compose up -d --build
-
