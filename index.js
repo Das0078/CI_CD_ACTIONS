@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.json("🚀 Hello from Node.js + Docker 1.6!");
+  res.json("🚀 Hello from Node.js + Docker 1.8!");
 });
 
 app.listen(PORT, () => {
