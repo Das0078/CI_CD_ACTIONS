@@ -243,4 +243,7 @@ http://[EC2_PUBLIC_IP]:8080
 ## 😁 After everything works fine
 Then make changes in your code then push it into main branch. After pushing you can go Actions tab on your github repo page to see the magic.
 
-## 👍 I believe you have learnt something from it. Thanks for reading it.
+## 👍 I believe you have learnt something from it. Thanks for reading it. Your suggestions are welcomed.
+
+### 📺 I got inspired by Piyush Garg in his youtube video for this. You can check it out the video and the channel for more info like this.
+https://youtu.be/y7S2oSjJ8PA?si=TVuo9YfRQCd9EVKD
