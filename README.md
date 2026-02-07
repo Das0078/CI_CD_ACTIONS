@@ -3,7 +3,7 @@
 > A production-style CI/CD pipeline that automatically deploys a Dockerized Node.js application to AWS EC2 on every push to the `main` branch using GitHub Actions and SSH.
 
 📌 **Workflow overview:**  
-*(Add GitHub Actions workflow image here)*
+![Workflow overview](./assets/workflow.png)
 
 ---
 
